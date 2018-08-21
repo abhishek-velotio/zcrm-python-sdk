@@ -2194,7 +2194,7 @@ class OrganizationAPIHandler(APIHandler):
             user_instance.currency=user_details['Currency']
         user_instance.created_by=user_details['created_by']
         user_instance.modified_by=user_details['Modified_By']
-        user_instance.is_online=user_details['Isonline']
+        #user_instance.is_online=user_details['Isonline']
         user_instance.created_time=user_details['created_time']
         user_instance.modified_time=user_details['Modified_Time']
         try:
